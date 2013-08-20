@@ -62,7 +62,7 @@ func loopCheck(in, out chan int) {
         select {
         case <- in:
             stop = true
-        case <-time.After(10 * time.Second):
+        case <-time.After(10 * time.Minute):
             CheckNewTasks()
         }
     }
