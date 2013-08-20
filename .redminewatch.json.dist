@@ -1,0 +1,9 @@
+{
+    "url": "http://redmine.com/",
+    "key": "api key",
+    "filters": {
+        "project_id": "project name",
+        "assigned_to_id": "your id",
+        "status_id": "*"
+    }
+}
